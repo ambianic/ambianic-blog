@@ -1,7 +1,7 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+Hello and welcome to the Ambianic.ai 
 
-![Image of fast.ai logo](images/logo.png)
+![Image of ambianic.ai logo](https://avatars2.githubusercontent.com/u/52052162?s=200&v=4)
 
-## This is a title
+## Ambianic.ai Blog
 
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+News and user stories from the Ambianic.ai community.
