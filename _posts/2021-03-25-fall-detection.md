@@ -12,7 +12,7 @@ End users install an Ambianic Box to constantly monitor a fall risk area of the 
 
 ![Fall Detection high level system architecture](https://user-images.githubusercontent.com/2234901/112542950-25d6d300-8d83-11eb-9048-feabd64de22d.png)
 
-In the current design we use a combination of Deep Neural Network model and heuristics to estimate a fall occurance. The following diagram illustates the main steps.
+In the current design we use a combination of the [PoseNet 2.0](https://github.com/tensorflow/tfjs-models/tree/master/posenet) Deep Neural Network model and domain specific heuristics to estimate a fall occurance. The following diagram illustates the main steps.
 
 [![Fall Detection AI flow](https://user-images.githubusercontent.com/2234901/112545190-ea89d380-8d85-11eb-8e2c-7a6b104d159e.png)](https://drive.google.com/file/d/1sr2OcEWsGzoxJb4PwCIXOuEo7a5ubAxG/view?usp=sharing)
 
