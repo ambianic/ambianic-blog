@@ -11,7 +11,6 @@ A few other notable achievements in 2020:
 - [X] Over-the-air updates. Automatically deployed by our CI/CD system with each release.
 - [X] Installable UI app for mobile and desktop at [ui.ambianic.ai](https://ui.ambianic.ai/)
 - [X] [Instant notifications](https://docs.ambianic.ai/users/configure/#notification-settings): email, SMS, Slack.
-- [X] We have also grown as a 🌎 community. There are over 700 👨‍👩‍👧‍👦 members of our public Slack channel.
 
 We have also grown as a 🌎 community. There are over 700 👨‍👩‍👧‍👦 members of our [public Slack channel](https://ambianicai.slack.com/join/shared_invite/zt-eosk4tv5-~GR3Sm7ccGbv1R7IEpk7OQ#/).
 
