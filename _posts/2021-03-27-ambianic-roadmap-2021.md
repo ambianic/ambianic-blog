@@ -7,11 +7,11 @@ We also introduced the 🔋 [Ambianic Box](https://docs.ambianic.ai/users/ambian
 
 A few other notable achievements in 2020:
 
-  - [X] Always-on timeline. Access your Ambianic Box at any time from anywhere.
-  - [X] Over-the-air updates. Automatically deployed by our CI/CD system with each release.
-  - [X] Installable UI app for mobile and desktop at [ui.ambianic.ai](https://ui.ambianic.ai/)
-  - [X] [Instant notifications](https://docs.ambianic.ai/users/configure/#notification-settings): email, SMS, Slack.
-  - [X] We have also grown as a 🌎 community. There are over 700 👨‍👩‍👧‍👦 members of our public Slack channel.
+- [X] Always-on timeline. Access your Ambianic Box at any time from anywhere.
+- [X] Over-the-air updates. Automatically deployed by our CI/CD system with each release.
+- [X] Installable UI app for mobile and desktop at [ui.ambianic.ai](https://ui.ambianic.ai/)
+- [X] [Instant notifications](https://docs.ambianic.ai/users/configure/#notification-settings): email, SMS, Slack.
+- [X] We have also grown as a 🌎 community. There are over 700 👨‍👩‍👧‍👦 members of our public Slack channel.
 
 We have also grown as a 🌎 community. There are over 700 👨‍👩‍👧‍👦 members of our [public Slack channel](https://ambianicai.slack.com/join/shared_invite/zt-eosk4tv5-~GR3Sm7ccGbv1R7IEpk7OQ#/).
 
@@ -32,12 +32,12 @@ More than that, we are seeing that Open Source AI models are becoming good enoug
 
 All these developments and the great feedback we received from users helped us shape the [2021 roadmap](https://github.com/orgs/ambianic/projects/1). Here are the big project milestones for 2021:
 
- - [ ] Easy access, monitoring and management of multiple edge devices via UI app.
- - [ ] Live view - Heads Up Display (HUD) in UI app. Show in near-real time what source samples are coming in along with AI inferencing info.
- - [ ] Enable users to label timeline events. Use feedback to incrementally learn AI models and improve accuracy. For example label detected faces to train local on-device recognition.
- - [ ] Local model training on a single or multiple devices owned by the same user. For example face recognition of family or employees.
- - [ ] Federated model training across devices owned by many users. For example ALRP (auto license plate recognition).
- - [ ] Visual edge device config and pipeline flow design.
+- [ ] Easy access, monitoring and management of multiple edge devices via UI app.
+- [ ] Live view - Heads Up Display (HUD) in UI app. Show in near-real time what source samples are coming in along with AI inferencing info.
+- [ ] Enable users to label timeline events. Use feedback to incrementally learn AI models and improve accuracy. For example label detected faces to train local on-device recognition.
+- [ ] Local model training on a single or multiple devices owned by the same user. For example face recognition of family or employees.
+- [ ] Federated model training across devices owned by many users. For example ALRP (auto license plate recognition).
+- [ ] Visual edge device config and pipeline flow design.
 
 We look forward ⏩ to share together in 2021 the rebirth of Ambient Intelligence: build for the people and by the people. We will continue to demonstrate that it is possible to empower users to pool their resources and create helpful AI applications without giving up any control and privacy.
 
