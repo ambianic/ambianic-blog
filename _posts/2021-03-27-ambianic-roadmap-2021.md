@@ -14,7 +14,7 @@ A few other notable achievements in 2020:
 
 We have also grown as a 🌎 community. There are over 700 👨‍👩‍👧‍👦 members of our [public Slack channel](https://ambianicai.slack.com/join/shared_invite/zt-eosk4tv5-~GR3Sm7ccGbv1R7IEpk7OQ#/).
 
-I am also very excited that our team has expanded with :octocat: [12 new code contributors](https://github.com/orgs/ambianic/people)!
+I am also very excited that our team has expanded with [12 new code contributors](https://github.com/orgs/ambianic/people)!
 
 The looming trend 🌊 of smarts surveillance camera 📹 vendors failing to protect user privacy continued 
 with 🚩 🚩 [new reports of major breaches](https://www.washingtonpost.com/technology/2021/03/10/verkada-hack-surveillance-risk/) 🚩 🚩 
