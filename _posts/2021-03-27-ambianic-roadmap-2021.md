@@ -30,7 +30,7 @@ It has been greatly motivating to see the grass roots adoption of [Federated Lea
 Along with the growth of Federated Learning we are starting to see AI luminaries come out and speak openly about the [unscrupulous attempts of big tech to control AI adoption](https://twitter.com/ambianicai/status/1374868273494364163). 
 More than that, we are seeing that Open Source AI models are becoming good enough for many practical applications [as long as there is good data available](https://twitter.com/ambianicai/status/1374851043037749253) to power these models.
 
-All these developments and the great feedback we received from users helped us shape the 2021 roadmap. Here are the big project milestones for 2021:
+All these developments and the great feedback we received from users helped us shape the [2021 roadmap](https://github.com/orgs/ambianic/projects/1). Here are the big project milestones for 2021:
 
 - [ ] Easy access, monitoring and management of multiple edge devices via UI app.
 - [ ] Live view - Heads Up Display (HUD) in UI app. Show in near-real time what source samples are coming in along with AI inferencing info.
