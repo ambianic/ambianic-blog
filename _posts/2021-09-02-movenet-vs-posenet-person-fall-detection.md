@@ -29,7 +29,7 @@ Pose estimation allows us to build an interactive fitness application that guide
 
 ![image10](https://user-images.githubusercontent.com/2234901/131891163-7a5b50f6-f7a0-4d5d-ab77-4af26421924b.png)
 
-_PoseNet image from [Tensorflow Blog](https://blog.tensorflow.org/2018/07/move-mirror-ai-experiment-with-pose-estimation-tensorflow-js.html)_
+_PoseNet image from the original [Tensorflow PoseNet Blog](https://blog.tensorflow.org/2018/07/move-mirror-ai-experiment-with-pose-estimation-tensorflow-js.html)_
 
 The Google AI Tensorflow team introduced various pose estimation models in the past couple of years with a variety of model architectures: Posenet, MoveNet Model and Blazepose. All these models have various variants of model architectures. 
 
