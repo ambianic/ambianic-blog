@@ -121,6 +121,19 @@ _In this example both models confused objects with person keypoints with. Althou
 
 For the time being, we advise users to keep areas of high risk falls clear of clutter, but we are working on introducing a feedback loop that would allow users to help their local models learn about their personal space and reduce mistakes.
 
+### Occlusions
+
+It turns out that everyday items such as chairs and tables can be significant challenges to pose detection models. Occlusions are a known problem for ML vision models. Both PoseNet and MoveNet suffer when occlusions block a certain part of the person whose fall we want to detect. Even in cases when the human eye can reasonably see and determine what position is a person in an image with occlusion, the ML models struggle. See examples below with PoseNet and MoveNet detections on a video frame sequence:
+
+![Posenet](https://user-images.githubusercontent.com/2234901/132567974-f7ee8b91-34bf-4caf-a66f-53560baa9521.png)
+
+_PoseNet suffers not only from confusing person with background objects, but it also loses track when occlusions block part of the person_
+
+![Movenet](https://user-images.githubusercontent.com/2234901/132567938-1ebb0940-d7f1-41af-adf8-7ff6060d5771.png)
+
+_MoveNet does not get easily confused by background objects, but it does have a problem with occlusions_
+
+
 ### Outdoor scenes
 Doorsteps are a high-risk area for falls. We saw examples where ML models confused trees and pillars with people. The confidence scores for these detections were usually low (less than 10%) which alleviates the issue to some extent as we only recommend alerting when detections are with at least 50% confidence. However, this is another area where a user feedback loop would be appropriate to allow the local model to learn and avoid detecting incorrect objects in the particular home setting.
 
