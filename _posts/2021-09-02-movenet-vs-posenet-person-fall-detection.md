@@ -123,7 +123,7 @@ For the time being, we advise users to keep areas of high risk falls clear of cl
 
 ### Occlusions
 
-It turns out that everyday items such as chairs and tables can be significant challenges to pose detection models. Occlusions are a known problem for ML vision models. Both PoseNet and MoveNet suffer when occlusions block a certain part of the person whose fall we want to detect. Even in cases when the human eye can reasonably see and determine what position is a person in an image with occlusion, the ML models struggle. See examples below with PoseNet and MoveNet detections on a video frame sequence:
+It turns out that everyday items such as chairs and tables can be significant challenges to pose detection models. Both PoseNet and MoveNet suffer when occlusions block a certain part of the person whose fall we want to detect. Even in cases when the human eye can reasonably see and determine what position is a person in an image with occlusion, the ML models struggle. See examples below with PoseNet and MoveNet detections on a video frame sequence:
 
 ![Posenet](https://user-images.githubusercontent.com/2234901/132567974-f7ee8b91-34bf-4caf-a66f-53560baa9521.png)
 
