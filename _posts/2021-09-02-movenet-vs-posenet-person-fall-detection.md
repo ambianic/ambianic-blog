@@ -125,13 +125,14 @@ For the time being, we advise users to keep areas of high risk falls clear of cl
 
 It turns out that everyday items such as chairs and tables can be significant challenges to pose detection models. Both PoseNet and MoveNet suffer when occlusions block a certain part of the person whose fall we want to detect. Even in cases when the human eye can reasonably see and determine what position is a person in an image with occlusion, the ML models struggle. See examples below with PoseNet and MoveNet detections on a video frame sequence:
 
-![Posenet](https://user-images.githubusercontent.com/2234901/132567974-f7ee8b91-34bf-4caf-a66f-53560baa9521.png)
+![Posenet](https://user-images.githubusercontent.com/2234901/132869863-4bda6f37-0cbe-4e75-9d5f-8f410f5073f8.png)
 
-_PoseNet suffers not only from confusing person with background objects, but it also loses track when occlusions block part of the person_
+_PoseNet presents very low confidence scores (<10%) on correct detections in this sequence. It also confuses person keypoints with background objects. When occlusions cover a bigger part of the person body, PoseNet is completely off._
 
-![Movenet](https://user-images.githubusercontent.com/2234901/132567938-1ebb0940-d7f1-41af-adf8-7ff6060d5771.png)
+![Movenet](https://user-images.githubusercontent.com/2234901/132870700-5fd3c05b-4b43-4443-80dc-a85df747e645.png)
 
-_MoveNet does not get easily confused by background objects, but it does have a problem with occlusions_
+
+_MoveNet does not get easily confused by background objects. It presents high confidence scores (>20%) on correct detections. However it does have a problem with occlusions and it does sometimes present similarly high confidence (>20%) on incorrect pose keypoints._
 
 
 ### Outdoor scenes
