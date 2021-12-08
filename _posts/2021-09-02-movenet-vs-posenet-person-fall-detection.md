@@ -157,12 +157,12 @@ We continue to learn about new situations from our users who share their feedbac
 
 ## Practical workarounds and troubleshooting
 
-Understanding the challenges and ongoing work to fine tune fall detection models, there are several practical steps that provide workaround many of the known challenges.
+Understanding the challenges and ongoing work to fine tune fall detection models, there are several practical steps that provide workaround for some  of the known challenges.
 
 - Distance: The models perform best when the monitored risk area where a subject might fall is roughly 6-15 feet (2-5 meters) from the camera.
 - Angle: The models perform best when the camera is placed approximately at eye level - 4-6 feet ( 1.5-2 meters) from the ground and angled parallel to the floor.
-- Visibility: As mentioned above, large occlusions such as tables and chairs can prevent the model from confidently detection a person's keypoints and thus failing to detect a fall. The fewer occlusions in the monitored area, the better the model will perform.
-- Multiple Cameras: To accomodate unavoidable occlusions and objects that might confuse the pose detection models, it is advisable to install multiple cameras observing the fall risk areas from different angles. As a [recent publication in Nature](https://www.nature.com/articles/s41598-021-81115-9) on an alternative fall detection system suggested, using up to 8 cameras is a practical approach to increase overal fall detection system performance. The MoveNet [model card](https://storage.googleapis.com/movenet/MoveNet.SinglePose%20Model%20Card.pdf) is also a good reference resource that provides additional technical limitations of the model.
+- Visibility: As mentioned above, large occlusions such as tables and chairs can prevent the pose detection models from confidently detecting keypoints. The fewer occlusions in the monitored area, the better the fall detection model will perform.
+- Multiple Cameras: To accomodate unavoidable occlusions and objects that might confuse the pose detection models, it is advisable to install multiple cameras observing the fall risk areas from different angles. As a [recent publication in Nature](https://www.nature.com/articles/s41598-021-81115-9) on an alternative fall detection system suggested, using up to 8 cameras is a practical tradeoff to increase overal fall detection system performance. The MoveNet [model card](https://storage.googleapis.com/movenet/MoveNet.SinglePose%20Model%20Card.pdf) provides additional technical limitations of the model.
 
 When a setting allows the flexibility to implement the forementioned steps, the practical benefits of the exising fall detection system is significantly improved over settings that exclusively rely on continuous human supervision.
 
