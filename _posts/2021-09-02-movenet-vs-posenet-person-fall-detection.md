@@ -155,13 +155,24 @@ MoveNet’s approach to estimate a central body for the main subject and then as
 ### Other scenes
 We continue to learn about new situations from our users who share their feedback with the [Open Source community](https://github.com/ambianic). As new challenging cases come in, we expand our model benchmark test suite and discuss problems that the ML system needs to learn to overcome. Along with this blog post, we also publish this [interactive notebook](https://github.com/ambianic/fall-detection/blob/main/MoveNet_Vs_PoseNet.ipynb) showing the latest results comparing PoseNet to MoveNet. 
 
+## Practical workarounds and troubleshooting
+
+Understanding the challenges and ongoing work to fine tune fall detection models, there are several practical steps that provide workaround many of the known challenges.
+
+- Distance: The models perform best when the monitored risk area where a subject might fall is roughly 6-15 feet (2-5 meters) from the camera.
+- Angle: The models perform best when the camera is placed approximately at eye level - 4-6 feet ( 1.5-2 meters) from the ground and angled parallel to the floor.
+- Visibility: As mentioned above, large occlusions such as tables and chairs can prevent the model from confidently detection a person's keypoints and thus failing to detect a fall. The fewer occlusions in the monitored area, the better the model will perform.
+- Multiple Cameras: To accomodate unavoidable occlusions and objects that might confuse the pose detection models, it is advisable to install multiple cameras observing the fall risk areas from different angles. As a [recent publication in Nature](https://www.nature.com/articles/s41598-021-81115-9) on an alternative fall detection system suggested, using up to 8 cameras is a practical approach to increase overal fall detection system performance. The MoveNet [model card](https://storage.googleapis.com/movenet/MoveNet.SinglePose%20Model%20Card.pdf) is also a good reference resource that provides additional technical limitations of the model.
+
+When a setting allows the flexibility to implement the forementioned steps, the practical benefits of the exising fall detection system is significantly improved over settings that exclusively rely on continuous human supervision.
+
 ## Future Work
 
 The current system is helpful in many cases when unattended seniors fall and need assistance. That is an improvement over the status quo which requires a care team member to be always present in person in order to react adequately and in time. While wearable medical alert devices are a viable alternative and have been around for years, [research shows](https://www.theseniorlist.com/research/medical-alert-device-consumer-usage-study/) that seniors are not wearing one when needed.
 
 We believe strongly that ambient intelligence has the potential to improve people's lives in a meaningful way. Although we are in the early days of proving this out, there is a growing community of users and supporters who continue to help us improve daily.
 
-One immediate area of attention for the core Ambianic.ai team is to enable users to provide feedback through a beautiful UI app with minimal intuitive actions. That would enable local on-device transfer learning to train a [fall classification model](https://github.com/ambianic/fall-detection/issues/18) with improved accuracy, precision and recall metrics. 
+One immediate area of attention for the core Ambianic.ai team is to enable users to provide feedback through an intuitive UI app with minimal intuitive actions. That would enable local on-device transfer learning to train a [fall classification model](https://github.com/ambianic/fall-detection/issues/18) with improved accuracy, precision and recall metrics. 
 
 The idea is to use the current simple heuristic model as a baseline for initial training of the fall classification DNN and gradually apply user feedback to further improve performance.
 
