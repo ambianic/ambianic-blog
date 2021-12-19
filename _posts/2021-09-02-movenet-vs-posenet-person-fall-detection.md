@@ -1,6 +1,6 @@
 # Comparing MoveNet to PoseNet for Person Fall Detection
 
-_by [Bhavika Panara](https://github.com/bhavikapanara)_
+_by [Bhavika Panara](https://github.com/bhavikapanara), [Ivelin Ivanov](https://github.com/ivelin)_
 
 MoveNet and PoseNet are computer vision models for Pose Estimation. Their architecture is composed of several layers. First, they detect a human figure in an image and then estimate spatial locations of key body joints (key points), such as someone’s elbow, shoulder or foot showing up in an image.
 
